@@ -4,7 +4,9 @@ Source code for a Movie Trailer website using the [Movie DB API](https://www.the
 ## Getting Started
 - You will need an API key from The Movie DB ([More info](https://www.themoviedb.org/faq/api))
 - Replace the `API_KEY` variable with your own key on line 15 of `media.py` or create your own `passwords.py` file containing the variable `API_KEY`
-- Requires [requests](http://docs.python-requests.org/en/master/) package
+- Requires [requests](http://docs.python-requests.org/en/master/) package (install using `pip install requests`)
+
+Run the file `entertainment_center.py` to generate a new `fresh_tomatoes.html` page.
 
 ## Adding/Removing a Movie
 - You can add or remove movies in the `entertainment_center.py` file
