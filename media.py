@@ -7,8 +7,8 @@ class Movie():
     """ This class provides a way to store movie-related information.
     
     Args:
-        imdb_id: IMDB ID as a string
-        youtube_trailer_url: YouTube Trailer URL as a string
+        imdb_id (str): IMDb ID
+        youtube_trailer_url (str): YouTube Trailer URL
     """
     
     # API Key for The Movie DB - https://www.themoviedb.org/faq/api
